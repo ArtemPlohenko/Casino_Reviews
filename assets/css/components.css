@@ -299,4 +299,32 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .casino--list .item {
+    display: grid;
+    grid-template-columns: 50% 2fr;
+  }
+
+  .wrap-card-tool {
+    margin-left: 0;
+  }
+
+  .popup {
+    left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .casino--list .item {
+    grid-template-columns: 100%;
+  }
+
+  .popup {
+    width: auto;
+    left: 0;
+    padding: 30px 20px;
+  }
 }
