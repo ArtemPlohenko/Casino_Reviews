@@ -1,0 +1,86 @@
+/*============= Fonts =============*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?okk83q");
+  src: url("../fonts/icomoon.eot?okk83q#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?okk83q") format("truetype"), url("../fonts/icomoon.woff?okk83q") format("woff"),
+    url("../fonts/icomoon.svg?okk83q#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+  content: "\e900";
+}
+.icon-close:before {
+  content: "\e912";
+}
+
+/*============= Body =============*/
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--gray--black-2);
+  background-color: var(--white-bg);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 0 30px;
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
